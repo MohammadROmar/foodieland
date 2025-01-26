@@ -1,3 +1,9 @@
+import Subscribe from '@/components/subscribe';
+
 export default function Home() {
-  return <p>Hello</p>;
+  return (
+    <>
+      <Subscribe />
+    </>
+  );
 }
