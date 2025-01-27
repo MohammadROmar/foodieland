@@ -22,7 +22,7 @@ function RootLayout({ children }: PropsWithChildren) {
     <html lang="en">
       <body className={`${interFont.variable} antialiased mx-12`}>
         <Header />
-        <main className="mt-0">{children}</main>
+        <main className="mt-0 space-y-16">{children}</main>
         <Footer />
       </body>
     </html>

@@ -1,5 +1,6 @@
 import Hero from '@/components/hero';
 import Categories from '@/components/categories';
+import Chef from '@/components/chef';
 import Subscribe from '@/components/subscribe';
 
 export default function Home() {
@@ -8,6 +9,8 @@ export default function Home() {
       <Hero />
 
       <Categories />
+
+      <Chef />
 
       <Subscribe />
     </>

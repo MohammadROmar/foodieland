@@ -3,7 +3,7 @@ import Category from './category';
 
 export default function Categories() {
   return (
-    <section className="max-container my-12">
+    <section className="max-container">
       <div className="flex justify-between text-4xl font-semibold">
         <h2>Categories</h2>
         <button className="text-sm font-medium bg-light-blue rounded-lg px-4 py-2">
