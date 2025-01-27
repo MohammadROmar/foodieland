@@ -11,7 +11,7 @@ export default function Categories() {
         </button>
       </div>
 
-      <ul className="flex justify-between mt-4">
+      <ul className="flex flex-wrap gap-4 justify-between items-center  mt-4">
         {categories.map((category) => (
           <Category key={category.name} {...category} />
         ))}

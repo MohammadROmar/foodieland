@@ -7,7 +7,7 @@ import logoImg from '@/assets/images/logo.png';
 
 export default function Header() {
   return (
-    <header className="flex justify-between items-center fixed top-0 left-0 right-0 px-12 py-4 border-b-2 border-black/5">
+    <header className="flex justify-between items-center fixed top-0 left-0 right-0 z-10 px-12 py-4 border-b-2 border-black/5 backdrop-blur-sm">
       <Image src={logoImg} alt="foodieland logo" height={20} priority />
 
       <Navigation navigationLinks={headerNavigationLinks} />

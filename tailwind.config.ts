@@ -11,6 +11,10 @@ export default {
       colors: {
         'light-blue': '#e7f9fd',
       },
+
+      screens: {
+        xl: '1440px',
+      },
     },
   },
   plugins: [],
