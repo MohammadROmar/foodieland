@@ -24,7 +24,7 @@ export default function HeroTextSection() {
       <div className="max-xl:flex-1 flex justify-between items-end">
         <Author />
 
-        <Button text="View Recipes" icon={PlayCircleIcon} />
+        <Button text="View Recipes" icon={<PlayCircleIcon />} />
       </div>
     </div>
   );
