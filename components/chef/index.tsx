@@ -5,7 +5,7 @@ import chefImg from '@/assets/images/chef.png';
 
 export default function Chef() {
   return (
-    <section className="max-container flex items-center gap-6">
+    <section className="flex items-center gap-6">
       <div className="flex-1 space-y-6">
         <h2 className="text-4xl font-semibold max-w-md">
           Everyone can be a chef in their own kitchen

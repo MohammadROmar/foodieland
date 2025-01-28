@@ -5,7 +5,7 @@ import vegetablesImg from '@/assets/images/vegetables.png';
 
 export default function Subscribe() {
   return (
-    <section className="max-container relative flex flex-col justify-center items-center rounded-3xl bg-light-blue p-8 overflow-hidden text-center">
+    <section className="relative flex flex-col justify-center items-center rounded-3xl bg-light-blue p-8 overflow-hidden text-center">
       <h2 className="font-semibold text-4xl">Deliciousness to your inbox</h2>
 
       <p className="max-w-md text-sm m-4 text-black/50">

@@ -1,9 +1,9 @@
-import { categories } from '@/data/categories';
+import { categories } from '@/data/dummy/categories';
 import Category from './category';
 
 export default function Categories() {
   return (
-    <section className="max-container">
+    <section>
       <div className="flex justify-between text-4xl font-semibold">
         <h2>Categories</h2>
         <button className="text-sm font-medium bg-light-blue rounded-lg px-4 py-2">

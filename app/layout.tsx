@@ -20,9 +20,13 @@ export const metadata: Metadata = {
 function RootLayout({ children }: PropsWithChildren) {
   return (
     <html lang="en">
-      <body className={`${interFont.variable} antialiased mx-12`}>
+      <body
+        className={`${interFont.variable} antialiased mx-12 overflow-x-hidden`}
+      >
         <Header />
-        <main className="mt-0 space-y-16">{children}</main>
+
+        <main className="mt-0 space-y-16 max-container">{children}</main>
+
         <Footer />
       </body>
     </html>
