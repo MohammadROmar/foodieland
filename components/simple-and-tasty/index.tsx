@@ -1,4 +1,4 @@
-import Recipes from './recipes';
+import SimpleAndTastyRecipes from './recipes';
 
 export default function SimpleAndTasty() {
   return (
@@ -12,7 +12,7 @@ export default function SimpleAndTasty() {
         meals to delightful treats, make every dish delicious with ease!
       </p>
 
-      <Recipes />
+      <SimpleAndTastyRecipes />
     </section>
   );
 }

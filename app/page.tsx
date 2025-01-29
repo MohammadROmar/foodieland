@@ -1,8 +1,9 @@
 import Hero from '@/components/hero';
 import Categories from '@/components/categories';
-import SimpleAndTasty from '@/components/simple-and-tasty';
+import SimpleAndTastyRescipes from '@/components/simple-and-tasty';
 import Chef from '@/components/chef';
 import Instagram from '@/components/instagram';
+import DeliciousRecipies from '@/components/delicious-recipes';
 import Subscribe from '@/components/subscribe';
 
 export default function Home() {
@@ -10,9 +11,10 @@ export default function Home() {
     <>
       <Hero />
       <Categories />
-      <SimpleAndTasty />
+      <SimpleAndTastyRescipes />
       <Chef />
       <Instagram />
+      <DeliciousRecipies />
       <Subscribe />
     </>
   );

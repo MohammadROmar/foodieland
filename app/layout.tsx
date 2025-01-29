@@ -25,7 +25,7 @@ function RootLayout({ children }: PropsWithChildren) {
       >
         <Header />
 
-        <main className="mt-0 space-y-16 max-container">{children}</main>
+        <main className="mt-0 space-y-32 max-container">{children}</main>
 
         <Footer />
       </body>
