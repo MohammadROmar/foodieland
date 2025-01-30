@@ -17,7 +17,9 @@ export default function HeroImagesSection() {
           src={bakedChickenWingsImg}
           alt="An image of grilled chicken wings."
           priority
-          className="object-center object-cover w-full h-full"
+          fill
+          sizes="50vw"
+          className="object-center object-cover"
         />
       </div>
     </>

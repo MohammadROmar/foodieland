@@ -20,9 +20,9 @@ export const footerNavigationLinks: NavigationLink[] = [
 ];
 
 export const headerNavigationLinks: NavigationLink[] = [
-  ...footerNavigationLinks,
   {
     label: 'Home',
     to: '/',
   },
+  ...footerNavigationLinks,
 ];

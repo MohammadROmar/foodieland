@@ -14,7 +14,7 @@ export default function RecipeCard({
   category,
   hasBG,
 }: RecipeCardProps) {
-  const className = `rounded-3xl py-6 space-y-4${
+  const className = `flex-1 rounded-3xl py-6 space-y-4${
     hasBG ? ' px-4 bg-gradient-to-t from-light-blue to-transparent' : ''
   }`;
 
