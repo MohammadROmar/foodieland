@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-import Button from '../ui/button';
+import Button from '@/components/ui/button';
 import chefImg from '@/assets/images/chef.png';
 
 export default function Chef() {

@@ -1,4 +1,4 @@
-import RecipeCard from '../shared/recipe-card';
+import RecipeCard from '@/components/shared/recipe-card';
 import { simpleAndTastyRecipes } from '@/data/dummy/simple-and-tasty-recipes';
 
 export default function SimpleAndTastyRecipes() {

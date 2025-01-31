@@ -1,8 +1,8 @@
 import HotRecipes from './hot-recipes';
 import RecipeDescription from './recipe-description';
-import DurationAndCategory from '../shared/duration-and-category';
-import Author from '../shared/author';
-import Button from '../ui/button';
+import DurationAndCategory from '@/components/shared/duration-and-category';
+import Author from '@/components/shared/author';
+import Button from '@/components/ui/button';
 import PlayCircleIcon from '@/assets/icons/play-circle';
 
 export default function HeroTextSection() {

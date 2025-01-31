@@ -1,8 +1,8 @@
 import Image from 'next/image';
 
 import ContactForm from './contact-form';
+import Button from '@/components/ui/button';
 import chefImg from '@/assets/images/happy-chef.png';
-import Button from '../ui/button';
 
 export default function ContactUs() {
   return (

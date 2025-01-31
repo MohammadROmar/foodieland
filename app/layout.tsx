@@ -2,8 +2,8 @@ import localFont from 'next/font/local';
 import type { Metadata } from 'next';
 import type { PropsWithChildren } from 'react';
 
-import Header from '@/components/header';
-import Footer from '@/components/footer';
+import Header from '@/components/shared/header';
+import Footer from '@/components/shared/footer';
 import './globals.css';
 
 const interFont = localFont({
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 
 function RootLayout({ children }: PropsWithChildren) {
   return (
-    <html lang="en">
+    <html lang="en" className="scroll-smooth scroll-mt-12">
       <body
         className={`${interFont.variable} antialiased mx-12 overflow-x-hidden`}
       >

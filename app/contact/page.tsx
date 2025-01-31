@@ -1,6 +1,6 @@
-import ContactUs from '@/components/contact-us';
-import Subscribe from '@/components/subscribe';
-import RecipeSuggestion from '@/components/recipe-suggestion';
+import ContactUs from '@/components/contact/contact-us';
+import Subscribe from '@/components/shared/subscribe';
+import RecipeSuggestion from '@/components/shared/recipe-suggestion';
 
 export default function ContactPage() {
   return (

@@ -1,4 +1,4 @@
-import Button from '../ui/button';
+import Button from '../../ui/button';
 import DecorationImages from './decoration-images';
 
 export default function Subscribe() {

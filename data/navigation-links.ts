@@ -3,7 +3,7 @@ import type { NavigationLink } from '@/models/navigation-link';
 export const footerNavigationLinks: NavigationLink[] = [
   {
     label: 'Recipes',
-    to: '#recipes',
+    to: '/#recipes',
   },
   {
     label: 'Blog',
@@ -15,7 +15,7 @@ export const footerNavigationLinks: NavigationLink[] = [
   },
   {
     label: 'About us',
-    to: '#about',
+    to: '/#about',
   },
 ];
 

@@ -1,4 +1,4 @@
-import SocialmediaLinks from '../shared/socialmedia-links';
+import SocialmediaLinks from '../socialmedia-links';
 import Copyright from './copyright';
 
 export default function FooterBottomSection() {

@@ -2,7 +2,10 @@ import SimpleAndTastyRecipes from './recipes';
 
 export default function SimpleAndTasty() {
   return (
-    <section className="w-full flex flex-col items-center gap-6 text-center">
+    <section
+      id="recipes"
+      className="w-full flex flex-col items-center gap-6 text-center"
+    >
       <h2 className="max-w-md text-4xl font-semibold">
         Simple and tasty recipes
       </h2>

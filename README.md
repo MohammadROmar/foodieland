@@ -15,7 +15,7 @@ The ultimate destination for delicious recipes, cooking tips, and food inspirati
 
 [Design on Figma](https://www.figma.com/community/file/1093372331682706566)
 
-[Preview live](https://www.foodieland-two.vercel.app)
+[Preview live](https://foodieland-two.vercel.app/)
 
 #### Note:
 

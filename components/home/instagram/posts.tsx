@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-import Button from '../ui/button';
+import Button from '@/components/ui/button';
 import InstagramIcon from '@/assets/icons/socialmedia/instagram';
 import { instagramPosts } from '@/data/instagram-posts';
 

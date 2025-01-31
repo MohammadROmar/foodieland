@@ -1,5 +1,5 @@
+import RecipeCard from '../recipe-card';
 import { deliciousRecipes } from '@/data/dummy/delicious-recipes';
-import RecipeCard from '../shared/recipe-card';
 
 export default function RecipeSuggestion() {
   return (

@@ -16,7 +16,6 @@ export default function HeroImagesSection() {
         <Image
           src={bakedChickenWingsImg}
           alt="An image of grilled chicken wings."
-          priority
           fill
           sizes="50vw"
           className="object-center object-cover"
