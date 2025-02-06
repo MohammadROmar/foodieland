@@ -6,7 +6,7 @@ import Instagram from '@/components/home/instagram';
 import DeliciousRecipies from '@/components/home/delicious-recipes';
 import Subscribe from '@/components/shared/subscribe';
 
-export default function Home() {
+export default function HomePage() {
   return (
     <>
       <Hero />

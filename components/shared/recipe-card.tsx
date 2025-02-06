@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import Image from 'next/image';
 
 import DurationAndCategory from '../shared/duration-and-category';
@@ -8,27 +9,36 @@ type RecipeCardProps = Recipe & {
 };
 
 export default function RecipeCard({
+  id,
   title,
   image,
-  duration,
+  prepareTime,
+  cookTime,
   category,
   hasBG,
 }: RecipeCardProps) {
-  const className = `flex-1 rounded-3xl py-6 space-y-4${
+  const className = `w-full h-full grid rounded-3xl py-6 space-y-4${
     hasBG ? ' px-4 bg-gradient-to-t from-light-blue to-transparent' : ''
   }`;
 
   return (
-    <li className={className}>
-      <Image
-        src={image}
-        alt={`${title} recipe image.`}
-        className="rounded-[inherit] w-full object-center object-cover"
-      />
+    <li className="flex-1">
+      <Link href={`/${id}`} className={className}>
+        <div className="space-y-4">
+          <Image
+            src={image}
+            alt={`${title} recipe image.`}
+            className="rounded-3xl w-full object-center object-cover"
+          />
 
-      <h3 className="text-2xl font-semibold line-clamp-2">{title}</h3>
+          <h3 className="text-2xl font-semibold line-clamp-2">{title}</h3>
+        </div>
 
-      <DurationAndCategory duration={duration} category={category} />
+        <DurationAndCategory
+          duration={prepareTime + cookTime}
+          category={category}
+        />
+      </Link>
     </li>
   );
 }

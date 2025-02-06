@@ -22,7 +22,7 @@ export const footerNavigationLinks: NavigationLink[] = [
 export const headerNavigationLinks: NavigationLink[] = [
   {
     label: 'Home',
-    to: '/',
+    to: '/#home"',
   },
   ...footerNavigationLinks,
 ];

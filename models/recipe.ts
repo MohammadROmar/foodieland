@@ -1,8 +1,12 @@
 import { StaticImageData } from 'next/image';
 
 export type Recipe = {
-  image: StaticImageData;
+  id: string;
   title: string;
-  duration: number;
+  image: StaticImageData;
+  authorName: string;
+  date?: string;
+  cookTime: number;
+  prepareTime: number;
   category: string;
 };
