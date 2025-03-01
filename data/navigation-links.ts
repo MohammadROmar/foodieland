@@ -15,14 +15,14 @@ export const footerNavigationLinks: NavigationLink[] = [
   },
   {
     label: 'About us',
-    to: '/#about',
+    to: '/about',
   },
 ];
 
 export const headerNavigationLinks: NavigationLink[] = [
   {
     label: 'Home',
-    to: '/#home"',
+    to: '/',
   },
   ...footerNavigationLinks,
 ];

@@ -4,7 +4,7 @@ import DecorationImages from './decoration-images';
 export default function Subscribe() {
   return (
     <section className="relative z-0 flex flex-col justify-center items-center rounded-3xl bg-light-blue p-8 overflow-hidden text-center">
-      <h2 className="font-semibold text-4xl">Deliciousness to your inbox</h2>
+      <h2 className="font-bold text-4xl">Deliciousness to your inbox</h2>
 
       <p className="max-w-md text-sm m-4 text-black/50">
         Get the best recipes, cooking tips, and exclusive treats delivered

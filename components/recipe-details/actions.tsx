@@ -18,7 +18,7 @@ export default function RecipeActions() {
   });
 
   return (
-    <div className="flex gap-8 items-center uppercase text-xs text-center">
+    <div className="flex gap-8 items-center uppercase text-xs text-center print:hidden">
       <ActionButton
         icon={<PrinterIcon />}
         label="print"

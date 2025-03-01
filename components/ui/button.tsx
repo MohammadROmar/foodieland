@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import clsx from 'clsx';
 
 type BaseProps = { text: string; icon?: React.ReactNode };
 
@@ -19,7 +20,7 @@ function Button({ as, text, icon, ...props }: ButtonProps | AnchorProps) {
     const { href, ...rest } = props as AnchorProps;
 
     return (
-      <Link href={href} className={className} {...rest}>
+      <Link href={href} {...rest} className={clsx(className, rest.className)}>
         <p>{text}</p>
         {icon}
       </Link>
@@ -27,7 +28,10 @@ function Button({ as, text, icon, ...props }: ButtonProps | AnchorProps) {
   }
 
   return (
-    <button className={className} {...(props as ButtonProps)}>
+    <button
+      {...(props as ButtonProps)}
+      className={clsx(className, props.className)}
+    >
       <p>{text}</p>
       {icon}
     </button>

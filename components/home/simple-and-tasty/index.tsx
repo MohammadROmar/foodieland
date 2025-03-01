@@ -6,9 +6,7 @@ export default function SimpleAndTasty() {
       id="recipes"
       className="w-full flex flex-col items-center gap-6 text-center"
     >
-      <h2 className="max-w-md text-4xl font-semibold">
-        Simple and tasty recipes
-      </h2>
+      <h2 className="max-w-md text-4xl font-bold">Simple and tasty recipes</h2>
 
       <p className="max-w-xl text-sm text-black/60 pb-8">
         Enjoy effortless cooking with simple, flavorful recipes. From quick

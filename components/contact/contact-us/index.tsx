@@ -18,7 +18,7 @@ export default function ContactUs() {
         />
 
         <div className="w-full space-y-8">
-          <h1 className="text-5xl font-semibold">Contact us</h1>
+          <h1 className="text-5xl font-bold">Contact us</h1>
           <ContactForm />
         </div>
       </div>

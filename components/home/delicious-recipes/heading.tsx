@@ -1,7 +1,7 @@
 export default function DeliciousRecipiesHeading() {
   return (
     <div className="flex justify-between items-center">
-      <h2 className="flex-1 max-w-lg text-4xl font-semibold">
+      <h2 className="flex-1 max-w-lg text-4xl font-bold">
         Try this delicious recipe to make your day
       </h2>
 

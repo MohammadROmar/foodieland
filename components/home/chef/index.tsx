@@ -7,7 +7,7 @@ export default function Chef() {
   return (
     <section className="flex items-center gap-6">
       <div className="flex-1 space-y-6">
-        <h2 className="text-4xl font-semibold max-w-md">
+        <h2 className="text-4xl font-bold max-w-md">
           Everyone can be a chef in their own kitchen
         </h2>
 
