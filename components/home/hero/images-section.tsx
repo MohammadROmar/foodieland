@@ -10,6 +10,9 @@ export default function HeroImagesSection() {
         src={badgeImg}
         alt="Hand picked recipe."
         className="absolute z-10 left-1/2 -translate-x-1/2 top-12"
+        loading="eager"
+        priority
+        fetchPriority="high"
       />
 
       <div className="w-1/2 relative">
@@ -19,6 +22,9 @@ export default function HeroImagesSection() {
           fill
           sizes="50vw"
           className="object-center object-cover"
+          loading="eager"
+          priority
+          fetchPriority="high"
         />
       </div>
     </>

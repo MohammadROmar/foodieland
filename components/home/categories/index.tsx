@@ -4,7 +4,7 @@ import Category from './category';
 export default function Categories() {
   return (
     <section>
-      <div className="flex justify-between text-4xl font-bold">
+      <div className="flex justify-between title">
         <h2>Categories</h2>
         <button className="text-sm font-medium bg-light-blue rounded-lg px-4 py-2">
           View All Categories

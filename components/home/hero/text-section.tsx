@@ -14,7 +14,9 @@ export default function HeroTextSection() {
       <HotRecipes />
 
       <div className="space-y-6">
-        <h1 className="text-7xl font-bold">Spicy delicious chicken wings</h1>
+        <h1 className="text-7xl font-bold font-quicksand">
+          Spicy delicious chicken wings
+        </h1>
 
         <RecipeDescription />
 

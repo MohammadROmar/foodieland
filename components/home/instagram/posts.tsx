@@ -22,7 +22,7 @@ export default function InstagramPosts() {
           target="_blank"
           rel="noopener noreferrer"
           text="Visit Our Instagram"
-          icon={<InstagramIcon fill="white" />}
+          icon={<InstagramIcon />}
         />
       </div>
     </div>

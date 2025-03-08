@@ -6,7 +6,7 @@ export default function Category({ image, name, color }: CategoryProps) {
       style={{ background: `linear-gradient(transparent 40%, ${color})` }}
       className="flex flex-col justify-center gap-4 p-6 rounded-2xl"
     >
-      <img src={image} alt={`${name} category image.`} />
+      <img src={image} alt={`${name} category image.`} loading="lazy" />
 
       <p className="text-center font-medium">{name}</p>
     </li>

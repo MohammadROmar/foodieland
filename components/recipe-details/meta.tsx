@@ -11,7 +11,7 @@ export default function RecipeMeta() {
 
   return (
     <div className="space-y-8">
-      <h1 className="max-w-4xl text-5xl font-bold">{recipe.title}</h1>
+      <h1 className="max-w-4xl title">{recipe.title}</h1>
       <div className="flex items-center divide-x-2">
         <div className="pr-8">
           <Author name={recipe.authorName} time={recipe.date} />

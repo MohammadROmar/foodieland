@@ -1,7 +1,8 @@
-import ContactUs from '@/components/contact/contact-us';
+import { Metadata } from 'next';
+
+import ContactUs from '@/components/contact';
 import Subscribe from '@/components/shared/subscribe';
 import RecipeSuggestion from '@/components/shared/recipe-suggestion';
-import { Metadata } from 'next';
 
 export const metadata: Metadata = { title: 'Contact Us' };
 

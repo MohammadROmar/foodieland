@@ -2,12 +2,13 @@ import Image from 'next/image';
 
 import ContactForm from './contact-form';
 import Button from '@/components/ui/button';
+import './bg.css';
 import chefImg from '@/assets/images/happy-chef.png';
 
 export default function ContactUs() {
   return (
     <section
-      className="flex flex-col justify-center items-center gap-8"
+      className="flex flex-col justify-center items-center gap-8 contact-bg"
       style={{ minHeight: 'calc(100vh - 10rem' }}
     >
       <div className="w-full flex gap-4">
@@ -18,7 +19,7 @@ export default function ContactUs() {
         />
 
         <div className="w-full space-y-8">
-          <h1 className="text-5xl font-bold">Contact us</h1>
+          <h1 className="title">Contact us</h1>
           <ContactForm />
         </div>
       </div>

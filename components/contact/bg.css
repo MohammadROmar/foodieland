@@ -1,0 +1,14 @@
+.contact-bg {
+  background-image: radial-gradient(
+      circle at 54% 52%,
+      #e7f9fd 6.688754566361296%,
+      transparent 34.98438254159411%
+    ),
+    radial-gradient(
+      circle at 70% 76%,
+      #e7f9fd 6.688754566361296%,
+      transparent 14.98438254159411%
+    );
+
+  background-blend-mode: darken, normal;
+}

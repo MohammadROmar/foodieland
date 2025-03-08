@@ -11,6 +11,11 @@ const interFont = localFont({
   variable: '--font-inter',
 });
 
+const quicksandFont = localFont({
+  src: '../assets/fonts/Quicksand.ttf',
+  variable: '--font-quicksand',
+});
+
 export const metadata: Metadata = {
   title: { default: 'Foodieland', template: '%s - Foodieland' },
   description:
@@ -20,9 +25,9 @@ export const metadata: Metadata = {
 
 function RootLayout({ children }: PropsWithChildren) {
   return (
-    <html lang="en" className="scroll-smooth scroll-mt-12">
+    <html lang="en" className="scroll-smooth">
       <body
-        className={`${interFont.variable} antialiased mx-12 overflow-x-hidden`}
+        className={`${interFont.variable} ${quicksandFont.variable} antialiased mx-12 overflow-x-hidden selection:text-white selection:bg-[#e77719]`}
       >
         <Header />
 

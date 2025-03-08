@@ -8,12 +8,17 @@ export default {
   ],
   theme: {
     extend: {
-      colors: {
-        'light-blue': '#e7f9fd',
-      },
-
       screens: {
         xl: '1440px',
+      },
+
+      fontFamily: {
+        inter: 'var(--font-inter)',
+        quicksand: 'var(--font-quicksand)',
+      },
+
+      colors: {
+        'light-blue': '#e7f9fd',
       },
     },
   },

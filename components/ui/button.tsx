@@ -12,11 +12,9 @@ type AnchorProps = BaseProps &
 
 function Button({ as, text, icon, ...props }: ButtonProps | AnchorProps) {
   const className =
-    'flex items-center gap-4 bg-black text-white px-8 py-4 rounded-2xl text-sm';
+    'flex items-center gap-4 bg-black text-white px-8 py-4 rounded-2xl text-sm font-quicksand';
 
   if (as === 'a') {
-    console.log('slcm');
-
     const { href, ...rest } = props as AnchorProps;
 
     return (
