@@ -1,6 +1,6 @@
 import Button from '../ui/button';
 import FoodDishes from '@/assets/images/food-dishes';
-import BolbIcon from '@/assets/icons/bolb';
+import BolbIcon from '@/assets/icons/bolb-icon';
 import Background from '@/assets/icons/background';
 
 export default function AboutUsHero() {
