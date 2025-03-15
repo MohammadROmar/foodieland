@@ -2,8 +2,8 @@ import Image from 'next/image';
 
 import ContactForm from './contact-form';
 import Button from '@/components/ui/button';
-import './bg.css';
 import chefImg from '@/assets/images/happy-chef.png';
+import './bg.css';
 
 export default function ContactUs() {
   return (
@@ -15,7 +15,7 @@ export default function ContactUs() {
         <Image
           src={chefImg}
           alt="An image of a happy chef."
-          className="object-center object-cover rounded-3xl bg-gradient-to-t from-light-blue to-transparent"
+          className="object-center object-cover rounded-3xl bg-gradient-to-t from-light-blue to-transparent max-lg:hidden"
         />
 
         <div className="w-full space-y-8">

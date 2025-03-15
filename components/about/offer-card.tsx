@@ -12,7 +12,7 @@ export default function OfferCard({
   description,
 }: OfferCardProps) {
   return (
-    <li className="flex flex-col items-center gap-1 rounded-3xl p-4 text-center bg-gradient-to-t from-light-blue to-transparent">
+    <li className="flex flex-col items-center gap-1 rounded-3xl p-4 text-center bg-gradient-to-t from-light-blue to-transparent hover:scale-105 transition-transform duration-500">
       <Image src={image} alt={title} className="w-40 h-w-40" />
 
       <h3 className="font-semibold text-2xl">{title}</h3>

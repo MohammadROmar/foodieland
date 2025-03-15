@@ -7,7 +7,7 @@ import { instagramPosts } from '@/data/instagram-posts';
 export default function InstagramPosts() {
   return (
     <div className="w-full space-y-8">
-      <ul className="flex justify-between gap-2">
+      <ul className="grid grid-cols-2 lg:grid-cols-4  justify-items-center gap-6">
         {instagramPosts.map((postImg) => (
           <li key={postImg.src}>
             <Image src={postImg} alt="Instagram post." />

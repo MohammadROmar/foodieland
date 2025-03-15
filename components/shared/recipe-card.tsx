@@ -22,16 +22,20 @@ export default function RecipeCard({
   }`;
 
   return (
-    <li className="flex-1">
+    <li className="flex-1 group">
       <Link href={`/${id}`} className={className}>
         <div className="space-y-4">
-          <Image
-            src={image}
-            alt={`${title} recipe image.`}
-            className="rounded-3xl w-full object-center object-cover"
-          />
+          <div className="rounded-3xl overflow-hidden">
+            <Image
+              src={image}
+              alt={`${title} recipe image.`}
+              className="w-full object-center object-cover group-hover:scale-110 transition-transform duration-500"
+            />
+          </div>
 
-          <h3 className="text-2xl font-semibold line-clamp-2">{title}</h3>
+          <h3 className="text-2xl max-sm:text-lg max-md:text-xl font-semibold line-clamp-2">
+            {title}
+          </h3>
         </div>
 
         <DurationAndCategory

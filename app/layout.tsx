@@ -27,9 +27,11 @@ function RootLayout({ children }: PropsWithChildren) {
   return (
     <html lang="en" className="scroll-smooth">
       <body
-        className={`${interFont.variable} ${quicksandFont.variable} antialiased mx-12 overflow-x-hidden selection:text-white selection:bg-[#e77719]`}
+        className={`${interFont.variable} ${quicksandFont.variable} antialiased mx-12 max-sm:mx-6 max-lg:mx-8 overflow-x-hidden selection:text-white selection:bg-[#e77719]`}
       >
         <Header />
+
+        <div id="sidebar"></div>
 
         <main className="mt-20 space-y-32 max-container">{children}</main>
 

@@ -1,6 +1,10 @@
 export default function FoodDishes() {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 80 80"
+      className="max-md:hidden"
+    >
       <defs>
         <pattern
           id="img-pattern"

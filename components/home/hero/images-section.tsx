@@ -9,22 +9,22 @@ export default function HeroImagesSection() {
       <Image
         src={badgeImg}
         alt="Hand picked recipe."
-        className="absolute z-10 left-1/2 -translate-x-1/2 top-12"
         loading="eager"
         priority
         fetchPriority="high"
+        className="absolute z-10 left-1/2 -translate-x-1/2 top-12 max-lg:-z-10"
       />
 
-      <div className="w-1/2 relative">
+      <div className="w-1/2 lg:relative">
         <Image
           src={bakedChickenWingsImg}
           alt="An image of grilled chicken wings."
           fill
           sizes="50vw"
-          className="object-center object-cover"
           loading="eager"
           priority
           fetchPriority="high"
+          className="object-center object-cover"
         />
       </div>
     </>

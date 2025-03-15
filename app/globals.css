@@ -14,10 +14,10 @@
   }
 
   .title {
-    @apply text-5xl font-bold font-quicksand;
+    @apply text-5xl max-md:text-4xl max-sm:text-3xl font-bold font-quicksand;
   }
 
   .text {
-    @apply text-sm text-black/60;
+    @apply text-sm max-sm:text-xs text-black/60;
   }
 }

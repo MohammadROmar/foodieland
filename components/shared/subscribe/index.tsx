@@ -11,12 +11,13 @@ export default function Subscribe() {
         straight to your inbox. Subscribe and make every meal unforgettable!
       </p>
 
-      <div className="flex bg-white rounded-2xl p-1 text-xs mt-4">
+      <div className="flex max-md:flex-col bg-white rounded-2xl p-1 text-xs mt-4">
         <input
           type="email"
           placeholder="Your email address..."
-          className="px-4 focus:outline-none"
+          className="p-4 focus:outline-none"
         />
+
         <Button text="Subscribe" />
       </div>
 

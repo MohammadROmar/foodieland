@@ -9,7 +9,7 @@ export default function AboutUsHero() {
       className="w-full flex items-center relative"
       style={{ height: 'calc(100vh - 10rem)' }}
     >
-      <div className="flex-1 space-y-6">
+      <div className="flex flex-col justify-center h-full flex-1 space-y-6">
         <h1 className="title max-w-lg leading-[3.25rem]">
           Bringing Flavor to Your Kitchen
         </h1>
@@ -29,13 +29,13 @@ export default function AboutUsHero() {
         />
       </div>
 
-      <div className="w-[35%] pr-12 box-content relative">
+      <div className="md:w-[35%] md:pr-12 box-content relative max-md:absolute max-md:inset-0 max-md:-translate-y-12 max-md:-z-10">
         <FoodDishes />
 
         <BolbIcon className="w-full h-full absolute inset-0 -translate-x-12 translate-y-8 -z-10" />
       </div>
 
-      <div className="absolute -inset-x-12 -z-10">
+      <div className="absolute -inset-x-12 -z-10 max-[1318px]:hidden">
         <Background />
       </div>
     </section>
