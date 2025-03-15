@@ -1,4 +1,7 @@
+'use client';
+
 import Image, { StaticImageData } from 'next/image';
+import Tilt from 'react-parallax-tilt';
 
 type OfferCardProps = {
   image: StaticImageData;
@@ -12,12 +15,17 @@ export default function OfferCard({
   description,
 }: OfferCardProps) {
   return (
-    <li className="flex flex-col items-center gap-1 rounded-3xl p-4 text-center bg-gradient-to-t from-light-blue to-transparent hover:scale-105 transition-transform duration-500">
-      <Image src={image} alt={title} className="w-40 h-w-40" />
+    <li className="w-full h-full text-center">
+      <Tilt
+        transitionSpeed={1000}
+        className="w-full h-full flex flex-col items-center gap-1 rounded-3xl p-4 bg-linear-to-t from-light-blue to-transparent shadow-md"
+      >
+        <Image src={image} alt={title} className="w-40 h-w-40" />
 
-      <h3 className="font-semibold text-2xl">{title}</h3>
+        <h3 className="font-semibold text-2xl">{title}</h3>
 
-      <p className="text">{description}</p>
+        <p className="subtext">{description}</p>
+      </Tilt>
     </li>
   );
 }

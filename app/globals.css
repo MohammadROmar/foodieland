@@ -1,6 +1,23 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
+
+@theme {
+  --breakpoint-xl: 1440px;
+
+  --font-inter: var(--font-inter);
+  --font-quicksand: var(--font-quicksand);
+
+  --color-light-blue: #e7f9fd;
+}
+
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentColor);
+  }
+}
 
 @layer base {
   body {
@@ -8,16 +25,14 @@
   }
 }
 
-@layer components {
-  .max-container {
-    @apply max-w-[1440px] mx-auto;
-  }
+@utility max-container {
+  @apply max-w-[1440px] mx-auto;
+}
 
-  .title {
-    @apply text-5xl max-md:text-4xl max-sm:text-3xl font-bold font-quicksand;
-  }
+@utility title {
+  @apply text-5xl max-md:text-4xl max-sm:text-3xl font-bold font-quicksand;
+}
 
-  .text {
-    @apply text-sm max-sm:text-xs text-black/60;
-  }
+@utility subtext {
+  @apply text-sm max-sm:text-xs text-black/60;
 }

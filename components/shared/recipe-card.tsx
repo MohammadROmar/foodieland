@@ -18,7 +18,7 @@ export default function RecipeCard({
   hasBG,
 }: RecipeCardProps) {
   const className = `w-full h-full grid rounded-3xl py-6 space-y-4${
-    hasBG ? ' px-4 bg-gradient-to-t from-light-blue to-transparent' : ''
+    hasBG ? ' px-4 bg-linear-to-t from-light-blue to-transparent' : ''
   }`;
 
   return (

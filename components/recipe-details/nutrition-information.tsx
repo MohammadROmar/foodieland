@@ -2,7 +2,7 @@ import { nutritionInformation } from '@/data/dummy/nutrition-information';
 
 export default function NutritionInformation() {
   return (
-    <div className="p-4 bg-light-blue rounded-3xl">
+    <div className="w-full p-4 bg-light-blue rounded-3xl">
       <h2 className="text-xl font-semibold mb-4">Nutrition Information</h2>
 
       <ul className="flex flex-col">

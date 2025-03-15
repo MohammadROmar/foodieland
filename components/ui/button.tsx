@@ -12,7 +12,7 @@ type AnchorProps = BaseProps &
 
 function Button({ as, text, icon, ...props }: ButtonProps | AnchorProps) {
   const className =
-    'flex items-center gap-4 text-center bg-black text-white px-8 py-4 rounded-2xl text-sm font-quicksand hover:scale-105 transition-transform duration-300';
+    'flex items-center gap-4 cursor-pointer text-center bg-black text-white px-8 py-4 rounded-2xl text-sm font-quicksand hover:scale-105 transition-transform duration-300';
 
   if (as === 'a') {
     const { href, ...rest } = props as AnchorProps;

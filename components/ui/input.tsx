@@ -11,7 +11,7 @@ type Textarea = {
   label: string;
 } & ComponentPropsWithoutRef<'textarea'>;
 
-const STYLES = 'p-4 border border-black/10 rounded-xl focus:outline-none';
+const STYLES = 'p-4 border border-black/10 rounded-xl focus:outline-hidden';
 
 export default function Input({ as, label, ...props }: Input | Textarea) {
   const className = clsx(STYLES, props.className);

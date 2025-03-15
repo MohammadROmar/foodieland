@@ -15,7 +15,7 @@ export default function ContactUs() {
         <Image
           src={chefImg}
           alt="An image of a happy chef."
-          className="object-center object-cover rounded-3xl bg-gradient-to-t from-light-blue to-transparent max-lg:hidden"
+          className="object-center object-cover rounded-3xl bg-linear-to-t from-light-blue to-transparent max-lg:hidden"
         />
 
         <div className="w-full space-y-8">

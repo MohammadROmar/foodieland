@@ -13,7 +13,7 @@ export default function FooterTopSection() {
           <Image src={logoImg} alt="foodieland logo" height={20} />
         </Link>
 
-        <p className="mt-4 text font-quicksand font-medium">
+        <p className="mt-4 subtext font-quicksand font-medium">
           Delicious recipes made simple – explore, cook, and enjoy every bite!
         </p>
       </div>

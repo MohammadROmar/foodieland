@@ -8,7 +8,7 @@ export default function StartCooking() {
     <section className="text-center space-y-6 p-8 bg-light-blue rounded-3xl relative z-0 overflow-hidden">
       <h2 className="title">Start Cooking Today!</h2>
 
-      <p className="text flex flex-col">
+      <p className="subtext flex flex-col">
         <span>Join our community and discover the joy of cooking.</span>
         <span>Let&apos;s make every meal delicious and memorable!</span>
       </p>

@@ -9,11 +9,11 @@ export default function RecipeInfo() {
   const { recipe } = useRecipeContext();
 
   return (
-    <div className="grid grid-cols-3 gap-8">
+    <div className="grid md:grid-cols-3 gap-8">
       <Image
         src={recipe.image}
         alt={recipe.title}
-        className="w-full h-full col-span-2 object-cover object-center rounded-3xl"
+        className="w-full h-full md:col-span-2 object-cover object-center rounded-3xl"
       />
 
       <NutritionInformation />

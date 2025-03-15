@@ -17,7 +17,7 @@ export default function Sidebar({ onClose }: SidebarProps) {
         animate={{ x: 0 }}
         exit={{ x: '-100%' }}
         transition={{ duration: 0.5, ease: 'easeInOut' }}
-        className="flex flex-col justify-between gap-6 p-6 fixed top-0 left-0 bottom-0 z-50 backdrop-blur bg-white/75 w-[80vw]"
+        className="flex flex-col justify-between gap-6 p-6 fixed top-0 left-0 bottom-0 z-50 backdrop-blur-sm bg-white/75 w-[80vw]"
       >
         <Link href="/">
           <Image src={logoImg} alt="foodieland logo" height={20} />

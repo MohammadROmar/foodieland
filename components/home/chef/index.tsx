@@ -8,11 +8,11 @@ export default function Chef() {
     <section className="flex flex-col gap-6 items-center">
       <div className="flex max-lg:text-center max-lg:flex-col items-center gap-6">
         <div className="flex-1 space-y-6">
-          <h2 className="title max-w-xl m-auto">
+          <h2 className="title max-w-xl max-lg:m-auto">
             Everyone can be a chef in their own kitchen
           </h2>
 
-          <p className="text m-auto max-w-2xl pb-8">
+          <p className="subtext m-auto max-w-2xl pb-8">
             With simple recipes, step-by-step guides, and expert tips, cooking
             delicious meals at home has never been easier. Whether you're a
             beginner or a seasoned cook, you have everything you need to create

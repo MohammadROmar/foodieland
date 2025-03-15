@@ -15,7 +15,7 @@ export default function Subscribe() {
         <input
           type="email"
           placeholder="Your email address..."
-          className="p-4 focus:outline-none"
+          className="p-4 focus:outline-hidden"
         />
 
         <Button text="Subscribe" />

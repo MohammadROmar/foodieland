@@ -14,7 +14,7 @@ export default function AboutUsHero() {
           Bringing Flavor to Your Kitchen
         </h1>
 
-        <p className="max-w-lg text">
+        <p className="max-w-lg subtext">
           At Foodieland, we believe that great food brings people together.
           Whether you're a home cook, a food enthusiast, or a beginner in the
           kitchen, our platform is designed to inspire, educate, and simplify

@@ -37,7 +37,7 @@ export default function Header({ children }: PropsWithChildren) {
       transition={{ duration: 0.5, bounce: false, ease: 'easeInOut' }}
       className={clsx(
         'max-container flex max-md:flex-row-reverse justify-between items-center fixed top-0 left-0 right-0 z-50 px-12 max-sm:px-6 max-lg:px-8 py-4',
-        scrolled && 'border-b-2 border-black/5 backdrop-blur-sm bg-white/25'
+        scrolled && 'border-b-2 border-black/5 backdrop-blur-xs bg-white/25'
       )}
     >
       {children}
